@@ -1,0 +1,204 @@
+text	tag
+ news	top 5 stories
+ top 5 stories	top 5 stories
+ local news	local news
+ locally	local news
+ world	international news
+ in the world	international news
+ international news	local news
+I'm looking for news	top 5 stories
+I'm looking for top 5 stories	top 5 stories
+I'm looking for local news	local news
+I'm looking for locally	local news
+I'm looking for world	international news
+I'm looking for in the world	international news
+I'm looking for international news	local news
+I look for news	top 5 stories
+I look for top 5 stories	top 5 stories
+I look for local news	local news
+I look for locally	local news
+I look for world	international news
+I look for in the world	international news
+I look for international news	local news
+I want news	top 5 stories
+I want top 5 stories	top 5 stories
+I want local news	local news
+I want locally	local news
+I want world	international news
+I want in the world	international news
+I want international news	local news
+I would like news	top 5 stories
+I would like top 5 stories	top 5 stories
+I would like local news	local news
+I would like locally	local news
+I would like world	international news
+I would like in the world	international news
+I would like international news	local news
+Can I have some news	top 5 stories
+Can I have some top 5 stories	top 5 stories
+Can I have some local news	local news
+Can I have some locally	local news
+Can I have some world	international news
+Can I have some in the world	international news
+Can I have some international news	local news
+Could I have some news	top 5 stories
+Could I have some top 5 stories	top 5 stories
+Could I have some local news	local news
+Could I have some locally	local news
+Could I have some world	international news
+Could I have some in the world	international news
+Could I have some international news	local news
+I want some news	top 5 stories
+I want some top 5 stories	top 5 stories
+I want some local news	local news
+I want some locally	local news
+I want some world	international news
+I want some in the world	international news
+I want some international news	local news
+I like some news	top 5 stories
+I like some top 5 stories	top 5 stories
+I like some local news	local news
+I like some locally	local news
+I like some world	international news
+I like some in the world	international news
+I like some international news	local news
+I would like some news	top 5 stories
+I would like some top 5 stories	top 5 stories
+I would like some local news	local news
+I would like some locally	local news
+I would like some world	international news
+I would like some in the world	international news
+I would like some international news	local news
+I want to read news	top 5 stories
+I want to read top 5 stories	top 5 stories
+I want to read local news	local news
+I want to read locally	local news
+I want to read world	international news
+I want to read in the world	international news
+I want to read international news	local news
+I would like to read news	top 5 stories
+I would like to read top 5 stories	top 5 stories
+I would like to read local news	local news
+I would like to read locally	local news
+I would like to read world	international news
+I would like to read in the world	international news
+I would like to read international news	local news
+Can I read some news	top 5 stories
+Can I read some top 5 stories	top 5 stories
+Can I read some local news	local news
+Can I read some locally	local news
+Can I read some world	international news
+Can I read some in the world	international news
+Can I read some international news	local news
+Could I read some news	top 5 stories
+Could I read some top 5 stories	top 5 stories
+Could I read some local news	local news
+Could I read some locally	local news
+Could I read some world	international news
+Could I read some in the world	international news
+Could I read some international news	local news
+Please give me some news	top 5 stories
+Please give me some top 5 stories	top 5 stories
+Please give me some local news	local news
+Please give me some locally	local news
+Please give me some world	international news
+Please give me some in the world	international news
+Please give me some international news	local news
+Please send me some news	top 5 stories
+Please send me some top 5 stories	top 5 stories
+Please send me some local news	local news
+Please send me some locally	local news
+Please send me some world	international news
+Please send me some in the world	international news
+Please send me some international news	local news
+Could you give me some news	top 5 stories
+Could you give me some top 5 stories	top 5 stories
+Could you give me some local news	local news
+Could you give me some locally	local news
+Could you give me some world	international news
+Could you give me some in the world	international news
+Could you give me some international news	local news
+Can you give me some news	top 5 stories
+Can you give me some top 5 stories	top 5 stories
+Can you give me some local news	local news
+Can you give me some locally	local news
+Can you give me some world	international news
+Can you give me some in the world	international news
+Can you give me some international news	local news
+Can you send me some news	top 5 stories
+Can you send me some top 5 stories	top 5 stories
+Can you send me some local news	local news
+Can you send me some locally	local news
+Can you send me some world	international news
+Can you send me some in the world	international news
+Can you send me some international news	local news
+Could you send me some news	top 5 stories
+Could you send me some top 5 stories	top 5 stories
+Could you send me some local news	local news
+Could you send me some locally	local news
+Could you send me some world	international news
+Could you send me some in the world	international news
+Could you send me some international news	local news
+Could I read news	top 5 stories
+Could I read top 5 stories	top 5 stories
+Could I read local news	local news
+Could I read locally	local news
+Could I read world	international news
+Could I read in the world	international news
+Could I read international news	local news
+Please give me news	top 5 stories
+Please give me top 5 stories	top 5 stories
+Please give me local news	local news
+Please give me locally	local news
+Please give me world	international news
+Please give me in the world	international news
+Please give me international news	local news
+Please send me news	top 5 stories
+Please send me top 5 stories	top 5 stories
+Please send me local news	local news
+Please send me locally	local news
+Please send me world	international news
+Please send me in the world	international news
+Please send me international news	local news
+Could you give me news	top 5 stories
+Could you give me top 5 stories	top 5 stories
+Could you give me local news	local news
+Could you give me locally	local news
+Could you give me world	international news
+Could you give me in the world	international news
+Could you give me international news	local news
+Can you give me news	top 5 stories
+Can you give me top 5 stories	top 5 stories
+Can you give me local news	local news
+Can you give me locally	local news
+Can you give me world	international news
+Can you give me in the world	international news
+Can you give me international news	local news
+Can you send me news	top 5 stories
+Can you send me top 5 stories	top 5 stories
+Can you send me local news	local news
+Can you send me locally	local news
+Can you send me world	international news
+Can you send me in the world	international news
+Can you send me international news	local news
+Could you send me news	top 5 stories
+Could you send me top 5 stories	top 5 stories
+Could you send me local news	local news
+Could you send me locally	local news
+Could you send me world	international news
+Could you send me in the world	international news
+Could you send me international news	local news
+What is happening in the news	top 5 stories
+What is happening in the top 5 stories	top 5 stories
+What is happening in the local news	local news
+What is happening in the locally	local news
+What is happening in the world	international news
+What is happening in the in the world	international news
+What is happening in the international news	local news
+what is going on in the news	top 5 stories
+what is going on in the top 5 stories	top 5 stories
+what is going on in the local news	local news
+what is going on in the locally	local news
+what is going on in the world	international news
+what is going on in the in the world	international news
+what is going on in the international news	local news
