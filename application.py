@@ -28,7 +28,7 @@ class data(Resource):
         if language == 'en':
             value = DM.intentClassifierEN(r)
         else:
-            value = DM.intentclassifierFR(r)
+            value = DM.intentClassifierFR(r)
         return jsonify({"intent": value})
 
 api.add_resource(data, '/')
