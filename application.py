@@ -22,13 +22,13 @@ class data(Resource):
     def post(self):
         data_json = request.get_json()
         print(data_json)
-        request = data_json['request']
+        r = data_json['request']
         language = data_json['language']
         DM = DialogueManager()
         if language == 'en':
-            value = DM.intentClassifierEN(request)
+            value = DM.intentClassifierEN(r)
         else:
-            value = DM.intentclassifierFR(request)
+            value = DM.intentclassifierFR(r)
         return jsonify({"intent": value})
 
 api.add_resource(data, '/')
