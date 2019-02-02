@@ -9,6 +9,8 @@ text	tag
  nouvelles du monde	news-international
  l'actualité internationale	news-international
  actualité internationale	news-international
+ sport	sports-top-stories
+ le sport	sports-top-stories
 Je cherche l'information	news-top-stories
 Je cherche information	news-top-stories
 Je cherche les nouvelles	news-top-stories
@@ -19,6 +21,8 @@ Je cherche localesles nouvelles du monde	news-local
 Je cherche nouvelles du monde	news-international
 Je cherche l'actualité internationale	news-international
 Je cherche actualité internationale	news-international
+Je cherche sport	sports-top-stories
+Je cherche le sport	sports-top-stories
 Je voudrais l'information	news-top-stories
 Je voudrais information	news-top-stories
 Je voudrais les nouvelles	news-top-stories
@@ -29,6 +33,8 @@ Je voudrais localesles nouvelles du monde	news-local
 Je voudrais nouvelles du monde	news-international
 Je voudrais l'actualité internationale	news-international
 Je voudrais actualité internationale	news-international
+Je voudrais sport	sports-top-stories
+Je voudrais le sport	sports-top-stories
 J'aimerais l'information	news-top-stories
 J'aimerais information	news-top-stories
 J'aimerais les nouvelles	news-top-stories
@@ -39,6 +45,8 @@ J'aimerais localesles nouvelles du monde	news-local
 J'aimerais nouvelles du monde	news-international
 J'aimerais l'actualité internationale	news-international
 J'aimerais actualité internationale	news-international
+J'aimerais sport	sports-top-stories
+J'aimerais le sport	sports-top-stories
 Je veux l'information	news-top-stories
 Je veux information	news-top-stories
 Je veux les nouvelles	news-top-stories
@@ -49,6 +57,8 @@ Je veux localesles nouvelles du monde	news-local
 Je veux nouvelles du monde	news-international
 Je veux l'actualité internationale	news-international
 Je veux actualité internationale	news-international
+Je veux sport	sports-top-stories
+Je veux le sport	sports-top-stories
 Je veux lire l'information	news-top-stories
 Je veux lire information	news-top-stories
 Je veux lire les nouvelles	news-top-stories
@@ -59,6 +69,8 @@ Je veux lire localesles nouvelles du monde	news-local
 Je veux lire nouvelles du monde	news-international
 Je veux lire l'actualité internationale	news-international
 Je veux lire actualité internationale	news-international
+Je veux lire sport	sports-top-stories
+Je veux lire le sport	sports-top-stories
 Je voudrais lire l'information	news-top-stories
 Je voudrais lire information	news-top-stories
 Je voudrais lire les nouvelles	news-top-stories
@@ -69,6 +81,8 @@ Je voudrais lire localesles nouvelles du monde	news-local
 Je voudrais lire nouvelles du monde	news-international
 Je voudrais lire l'actualité internationale	news-international
 Je voudrais lire actualité internationale	news-international
+Je voudrais lire sport	sports-top-stories
+Je voudrais lire le sport	sports-top-stories
 puis-je lire l'information	news-top-stories
 puis-je lire information	news-top-stories
 puis-je lire les nouvelles	news-top-stories
@@ -79,6 +93,8 @@ puis-je lire localesles nouvelles du monde	news-local
 puis-je lire nouvelles du monde	news-international
 puis-je lire l'actualité internationale	news-international
 puis-je lire actualité internationale	news-international
+puis-je lire sport	sports-top-stories
+puis-je lire le sport	sports-top-stories
 pourrais-je lire l'information	news-top-stories
 pourrais-je lire information	news-top-stories
 pourrais-je lire les nouvelles	news-top-stories
@@ -89,6 +105,8 @@ pourrais-je lire localesles nouvelles du monde	news-local
 pourrais-je lire nouvelles du monde	news-international
 pourrais-je lire l'actualité internationale	news-international
 pourrais-je lire actualité internationale	news-international
+pourrais-je lire sport	sports-top-stories
+pourrais-je lire le sport	sports-top-stories
 puis-je avoir l'information	news-top-stories
 puis-je avoir information	news-top-stories
 puis-je avoir les nouvelles	news-top-stories
@@ -99,6 +117,8 @@ puis-je avoir localesles nouvelles du monde	news-local
 puis-je avoir nouvelles du monde	news-international
 puis-je avoir l'actualité internationale	news-international
 puis-je avoir actualité internationale	news-international
+puis-je avoir sport	sports-top-stories
+puis-je avoir le sport	sports-top-stories
 pourrais-je avoir l'information	news-top-stories
 pourrais-je avoir information	news-top-stories
 pourrais-je avoir les nouvelles	news-top-stories
@@ -109,6 +129,8 @@ pourrais-je avoir localesles nouvelles du monde	news-local
 pourrais-je avoir nouvelles du monde	news-international
 pourrais-je avoir l'actualité internationale	news-international
 pourrais-je avoir actualité internationale	news-international
+pourrais-je avoir sport	sports-top-stories
+pourrais-je avoir le sport	sports-top-stories
 pouvez-vous m'envoyer l'information	news-top-stories
 pouvez-vous m'envoyer information	news-top-stories
 pouvez-vous m'envoyer les nouvelles	news-top-stories
@@ -119,6 +141,8 @@ pouvez-vous m'envoyer localesles nouvelles du monde	news-local
 pouvez-vous m'envoyer nouvelles du monde	news-international
 pouvez-vous m'envoyer l'actualité internationale	news-international
 pouvez-vous m'envoyer actualité internationale	news-international
+pouvez-vous m'envoyer sport	sports-top-stories
+pouvez-vous m'envoyer le sport	sports-top-stories
 Qu'est qui se passe l'information	news-top-stories
 Qu'est qui se passe information	news-top-stories
 Qu'est qui se passe les nouvelles	news-top-stories
@@ -129,6 +153,8 @@ Qu'est qui se passe localesles nouvelles du monde	news-local
 Qu'est qui se passe nouvelles du monde	news-international
 Qu'est qui se passe l'actualité internationale	news-international
 Qu'est qui se passe actualité internationale	news-international
+Qu'est qui se passe sport	sports-top-stories
+Qu'est qui se passe le sport	sports-top-stories
 Qu'est qui se arrive l'information	news-top-stories
 Qu'est qui se arrive information	news-top-stories
 Qu'est qui se arrive les nouvelles	news-top-stories
@@ -139,6 +165,8 @@ Qu'est qui se arrive localesles nouvelles du monde	news-local
 Qu'est qui se arrive nouvelles du monde	news-international
 Qu'est qui se arrive l'actualité internationale	news-international
 Qu'est qui se arrive actualité internationale	news-international
+Qu'est qui se arrive sport	sports-top-stories
+Qu'est qui se arrive le sport	sports-top-stories
 Qu'elles sont l'information	news-top-stories
 Qu'elles sont information	news-top-stories
 Qu'elles sont les nouvelles	news-top-stories
@@ -149,3 +177,5 @@ Qu'elles sont localesles nouvelles du monde	news-local
 Qu'elles sont nouvelles du monde	news-international
 Qu'elles sont l'actualité internationale	news-international
 Qu'elles sont actualité internationale	news-international
+Qu'elles sont sport	sports-top-stories
+Qu'elles sont le sport	sports-top-stories

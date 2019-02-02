@@ -23,7 +23,8 @@ class TextCreationFR:
             "Qu'est qui se arrive", "Qu'elles sont"]
 
         content = ["l'information", "information", "les nouvelles", "nouvelles", "les nouvelles locales", "nouvelles locales", "locales"\
-                   "les nouvelles du monde", "nouvelles du monde", "l'actualité internationale", "actualité internationale"]
+                   "les nouvelles du monde", "nouvelles du monde", "l'actualité internationale", "actualité internationale", "sport", \
+                   "le sport"]
            
         with open(cbc_tasks_file, 'wt') as f:
             writer = csv.writer(f, delimiter='\t')
@@ -35,6 +36,12 @@ class TextCreationFR:
                         tag = 'news-top-stories'
                     elif word_j in ["les nouvelles du monde", "nouvelles du monde", "l'actualité internationale", "actualité internationale"]:
                         tag = 'news-international'
+                    elif word_j in ['sport', 'le sport']:
+                        tag = 'sports-top-stories'
+                    elif word_j in ['radio', 'radio one', 'live radio']:
+                        tag = 'radio-live'
+                    elif word_j in [ 'music', 'musics', 'radio two', 'live music']:
+                        tag = 'music-live'
                     else: 
                         tag = 'news-local'
                     writer.writerow([a, tag])
