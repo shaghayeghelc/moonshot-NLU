@@ -32,11 +32,11 @@ class TextCreationFR:
                 for word_j in content:
                     a = word_i + " " + word_j
                     if word_j in ["l'information", "information", "les nouvelles", "nouvelles"]:
-                        tag = 'top 5 stories'
+                        tag = 'news-top-stories'
                     elif word_j in ["les nouvelles du monde", "nouvelles du monde", "l'actualité internationale", "actualité internationale"]:
-                        tag = 'international news'
+                        tag = 'news-international'
                     else: 
-                        tag = 'local news'
+                        tag = 'news-local'
                     writer.writerow([a, tag])
 
 if __name__ == "__main__":
