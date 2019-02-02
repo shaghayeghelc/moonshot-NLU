@@ -25,7 +25,7 @@ class data(Resource):
         request = data_json['request']
         language = data_json['language']
         DM = DialogueManager()
-        if language == 'en'
+        if language == 'en':
             value = DM.intentClassifierEN(request)
         else:
             value = DM.intentclassifierFR(request)
