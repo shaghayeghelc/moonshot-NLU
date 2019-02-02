@@ -14,7 +14,7 @@ class TextCreationEN:
         # Create the folder to save the textual data
         if not os.path.exists('data'):
             os.makedirs('data')
-        cbc_tasks_file = "data/cbc_tasks.tsv"
+        cbc_tasks_file = "data/cbc_tasks_en.tsv"
 
         tasks = {}
 
