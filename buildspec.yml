@@ -11,5 +11,5 @@ artifacts:
     - 'intentClassifierFR'
     - 'intentClassifierFR.py'
     - 'requirements.txt'
-    - 'tfidfVectorizerfr'
-    - 'tfidfVectorizeren'
+    - 'tfidfvectorizerfr'
+    - 'tfidfvectorizeren'
