@@ -1,0 +1,12 @@
+version: 0.2
+
+artifacts:
+  type: zip
+  files:
+    - 'utils.py'
+    - 'application.py'
+    - 'dialogue_manager.py'
+    - 'intentClassifier'
+    - 'intentClassifier.py'
+    - 'requirements.txt'
+    - 'tfidfVectorizer'
