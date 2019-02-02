@@ -5,17 +5,31 @@ import nltk
 import pickle
 import re
 import numpy as np
-# nltk.download('stopwords')
-nltk.download('stopwords', download_dir='/opt/python/current/app')
-nltk.data.path.append('/opt/python/current/app')
+nltk.download('stopwords')
+# nltk.download('stopwords', download_dir='/opt/python/current/app')
+# nltk.data.path.append('/opt/python/current/app')
 from nltk.corpus import stopwords
 
-def text_prepare(text):
+def text_prepare_en(text):
     """ Tokenization- Preprocessing """
     
     replace_by_space_re = re.compile('[/(){}\[\]\|@,;]')
     bad_symbols_re = re.compile('[^0-9a-z #+_]')
     stopwords_set = set(stopwords.words('english'))
+
+    text = text.lower()
+    text = replace_by_space_re.sub(' ', text)
+    text = bad_symbols_re.sub('', text)
+    text = ' '.join([x for x in text.split() if x and x not in stopwords_set])
+
+    return text.strip()
+
+def text_prepare_fr(text):
+    """ Tokenization- Preprocessing """
+    
+    replace_by_space_re = re.compile('[/(){}\[\]\|@,;]')
+    bad_symbols_re = re.compile('[^0-9a-z #+_]')
+    stopwords_set = set(stopwords.words('french'))
 
     text = text.lower()
     text = replace_by_space_re.sub(' ', text)

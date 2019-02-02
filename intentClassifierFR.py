@@ -17,20 +17,19 @@ class Model():
     def __init__(self):
         pass
 
-    def tfidf_features(self, X_train, X_test, vectorizer_path):
+    def tfidf_features(self, X_train, X_test):
         """ Performs TF-IDF transformation and dumps the model. """
         
         # Train a vectorizer on X_train data.
         # Transform X_train and X_test data.
-        # Pickle the trained vectorizer to 'vectorizer_path'
         
-        tfidf_vectorizer = TfidfVectorizer(ngram_range=(1, 2), max_df=0.9, min_df=5, token_pattern ='(\S+)')
+        tfidf_vectorizer_fr = TfidfVectorizer(ngram_range=(1, 2), max_df=0.9, min_df=5, token_pattern ='(\S+)')
         
-        X_train = tfidf_vectorizer.fit_transform(X_train)
-        X_test = tfidf_vectorizer.transform(X_test)
+        X_train = tfidf_vectorizer_fr.fit_transform(X_train)
+        X_test = tfidf_vectorizer_fr.transform(X_test)
         
-        with open(vectorizer_path, 'wb') as f:
-            pickle.dump(tfidf_vectorizer, f)
+        with open('tfidfvectorizerfr', 'wb') as f:
+            pickle.dump(tfidf_vectorizer_fr, f)
         
         return X_train, X_test
 
@@ -43,7 +42,7 @@ class Model():
         # cbc_task_df.head()
 
         # dialogue_df['text'] = dialogue_df['text'].apply(lambda x: text_prepare(x)) 
-        cbc_task_df['text'] =  cbc_task_df['text'].apply(lambda x: text_prepare(x)) 
+        cbc_task_df['text'] =  cbc_task_df['text'].apply(lambda x: text_prepare_fr(x)) 
 
         # X = np.concatenate([dialogue_df['text'].values, cbc_task_df['text'].values])
         X = np.concatenate([cbc_task_df['text'].values])
@@ -59,7 +58,7 @@ class Model():
         X_train, X_test, y_train, y_test =  train_test_split(X, y, train_size = 0.9, random_state = 0) 
         print('Train size = {}, test size = {}'.format(len(X_train), len(X_test)))
 
-        X_train_tfidf, X_test_tfidf = self.tfidf_features(X_train, X_test, 'tfidfVectorizer')
+        X_train_tfidf, X_test_tfidf = self.tfidf_features(X_train, X_test)
         # print(X_train_tfidf)
         # print(X_test_tfidf)
 
