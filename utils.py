@@ -10,7 +10,7 @@ nltk.download('stopwords', download_dir='/opt/python/current/app')
 nltk.data.path.append('/opt/python/current/app')
 
 # nltk.download('stopwords')
-# from nltk.corpus import stopwords
+from nltk.corpus import stopwords
 
 def text_prepare(text):
     """ Tokenization- Preprocessing """
