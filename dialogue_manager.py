@@ -16,7 +16,7 @@ class DialogueManager():
 
     def intentClassifierEN(self, request):
         # Find the intent of request.
-        preprocessed_request = text_prepare(request) 
+        preprocessed_request = text_prepare_en(request) 
         print(preprocessed_request)
         features = self.tfidf_vectorizer_en.transform([preprocessed_request]) 
         print(features)
@@ -26,7 +26,7 @@ class DialogueManager():
 
     def intentClassifierFR(self, request):
         # Find the intent of request.
-        preprocessed_request = text_prepare(request) 
+        preprocessed_request = text_prepare_fr(request) 
         print(preprocessed_request)
         features = self.tfidf_vectorizer_fr.transform([preprocessed_request]) 
         print(features)
