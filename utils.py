@@ -5,9 +5,9 @@ import nltk
 import pickle
 import re
 import numpy as np
-nltk.download('stopwords')
-# nltk.download('stopwords', download_dir='/opt/python/current/app')
-# nltk.data.path.append('/opt/python/current/app')
+# nltk.download('stopwords')
+nltk.download('stopwords', download_dir='/opt/python/current/app')
+nltk.data.path.append('/opt/python/current/app')
 from nltk.corpus import stopwords
 
 def text_prepare(text):
