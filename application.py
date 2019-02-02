@@ -19,10 +19,21 @@ class data(Resource):
     def get(self):
         return jsonify({"intent": 5})
 
+    def post(self):
+        data_json = request.get_json()
+        print(data_json)
+        request = data_json['request']
+        language = data_json['language']
+        DM = DialogueManager()
+        if language == 'en'
+            value = DM.intentClassifierEN(request)
+        else:
+            value = DM.intentclassifierFR(request)
+        return jsonify({"intent": value})
 
 api.add_resource(data, '/')
 
  
 if __name__ == "__main__":
-    application.run()
+    application.run(host='0.0.0.0')
 
