@@ -26,3 +26,4 @@ if __name__ == "__main__":
     request = sys.argv[1]
     DM = DialogueManager()
     DM.intentClassifierEN(request)
+
