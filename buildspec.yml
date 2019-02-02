@@ -8,5 +8,7 @@ artifacts:
     - 'dialogue_manager.py'
     - 'intentClassifierEN'
     - 'intentClassifierEN.py'
+    - 'intentClassifierFR'
+    - 'intentClassifierFR.py'
     - 'requirements.txt'
     - 'tfidfVectorizer'
