@@ -11,8 +11,8 @@ class DialogueManager():
         # Intent classification - English
         self.intent_classifier_en = unpickle_file('intentClassifierEN')
         self.intent_classifier_fr = unpickle_file('intentClassifierFR')
-        self.tfidf_vectorizer_en = unpickle_file('tfidfVectorizeren')
-        self.tfidf_vectorizer_fr = unpickle_file('tfidfVectorizerfr')
+        self.tfidf_vectorizer_en = unpickle_file('tfidfvectorizeren')
+        self.tfidf_vectorizer_fr = unpickle_file('tfidfvectorizerfr')
 
     def intentClassifierEN(self, request):
         # Find the intent of request.
