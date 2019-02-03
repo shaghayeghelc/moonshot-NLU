@@ -35,25 +35,14 @@ class Model():
 
     def train_model(self):
 
-        # dialogue_df = pd.read_csv('data/dialogues.tsv', sep='\t').sample(sample_size, random_state = 0)
         cbc_task_df = pd.read_csv('data/cbc_tasks_fr.tsv', sep='\t')
 
-        # dialogue_df.head()
         # cbc_task_df.head()
 
-        # dialogue_df['text'] = dialogue_df['text'].apply(lambda x: text_prepare(x)) 
         cbc_task_df['text'] =  cbc_task_df['text'].apply(lambda x: text_prepare_fr(x)) 
 
-        # X = np.concatenate([dialogue_df['text'].values, cbc_task_df['text'].values])
         X = np.concatenate([cbc_task_df['text'].values])
-        # y = ['dialogue'] * dialogue_df.shape[0] + ['Task'] * cbc_task_df.shape[0]
         y = (cbc_task_df['tag'].values).tolist()
-       
-        # y = ['dialogue'] * dialogue_df.shape[0] + (cbc_task_df['tag'].values).tolist()
-        # print(X)
-        # print(y)
-        # print(len(X))
-        # print(len(y))
 
         X_train, X_test, y_train, y_test =  train_test_split(X, y, train_size = 0.9, random_state = 0) 
         print('Train size = {}, test size = {}'.format(len(X_train), len(X_test)))
