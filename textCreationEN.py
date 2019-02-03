@@ -26,7 +26,7 @@ class TextCreationEN:
 
         content = ['news', 'top 5 stories', 'local news', 'locally', 'world', 'in the world', 'international news', \
                     'sport', 'top stories of sport', 'sports', 'radio', 'radio one', 'live radio', 'music', 'musics', 'radio two', 'live music', \
-                    'podcasts']
+                    'podcasts', 'podcast']
 
         with open(cbc_tasks_file, 'wt') as f:
             writer = csv.writer(f, delimiter='\t')
@@ -44,7 +44,7 @@ class TextCreationEN:
                         tag = 'radio-live'
                     elif word_j in [ 'music', 'musics', 'radio two', 'live music']:
                         tag = 'music-live'
-                    elif word_j in ['podcasts']:
+                    elif word_j in ['podcasts', 'podcast']:
                         tag = 'podcasts'
                     else: 
                         tag = 'news-local'
