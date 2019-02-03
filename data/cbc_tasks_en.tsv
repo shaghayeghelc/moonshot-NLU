@@ -16,6 +16,7 @@ text	tag
  musics	music-live
  radio two	music-live
  live music	music-live
+ podcasts	podcasts
 I'm looking for news	news-top-stories
 I'm looking for top 5 stories	news-top-stories
 I'm looking for local news	news-local
@@ -33,6 +34,7 @@ I'm looking for music	music-live
 I'm looking for musics	music-live
 I'm looking for radio two	music-live
 I'm looking for live music	music-live
+I'm looking for podcasts	podcasts
 I look for news	news-top-stories
 I look for top 5 stories	news-top-stories
 I look for local news	news-local
@@ -50,6 +52,7 @@ I look for music	music-live
 I look for musics	music-live
 I look for radio two	music-live
 I look for live music	music-live
+I look for podcasts	podcasts
 I want news	news-top-stories
 I want top 5 stories	news-top-stories
 I want local news	news-local
@@ -67,6 +70,7 @@ I want music	music-live
 I want musics	music-live
 I want radio two	music-live
 I want live music	music-live
+I want podcasts	podcasts
 I would like news	news-top-stories
 I would like top 5 stories	news-top-stories
 I would like local news	news-local
@@ -84,6 +88,7 @@ I would like music	music-live
 I would like musics	music-live
 I would like radio two	music-live
 I would like live music	music-live
+I would like podcasts	podcasts
 Can I have some news	news-top-stories
 Can I have some top 5 stories	news-top-stories
 Can I have some local news	news-local
@@ -101,6 +106,7 @@ Can I have some music	music-live
 Can I have some musics	music-live
 Can I have some radio two	music-live
 Can I have some live music	music-live
+Can I have some podcasts	podcasts
 Could I have some news	news-top-stories
 Could I have some top 5 stories	news-top-stories
 Could I have some local news	news-local
@@ -118,6 +124,7 @@ Could I have some music	music-live
 Could I have some musics	music-live
 Could I have some radio two	music-live
 Could I have some live music	music-live
+Could I have some podcasts	podcasts
 I want some news	news-top-stories
 I want some top 5 stories	news-top-stories
 I want some local news	news-local
@@ -135,6 +142,7 @@ I want some music	music-live
 I want some musics	music-live
 I want some radio two	music-live
 I want some live music	music-live
+I want some podcasts	podcasts
 I like some news	news-top-stories
 I like some top 5 stories	news-top-stories
 I like some local news	news-local
@@ -152,6 +160,7 @@ I like some music	music-live
 I like some musics	music-live
 I like some radio two	music-live
 I like some live music	music-live
+I like some podcasts	podcasts
 I would like some news	news-top-stories
 I would like some top 5 stories	news-top-stories
 I would like some local news	news-local
@@ -169,6 +178,7 @@ I would like some music	music-live
 I would like some musics	music-live
 I would like some radio two	music-live
 I would like some live music	music-live
+I would like some podcasts	podcasts
 I want to read news	news-top-stories
 I want to read top 5 stories	news-top-stories
 I want to read local news	news-local
@@ -186,6 +196,7 @@ I want to read music	music-live
 I want to read musics	music-live
 I want to read radio two	music-live
 I want to read live music	music-live
+I want to read podcasts	podcasts
 I would like to read news	news-top-stories
 I would like to read top 5 stories	news-top-stories
 I would like to read local news	news-local
@@ -203,6 +214,7 @@ I would like to read music	music-live
 I would like to read musics	music-live
 I would like to read radio two	music-live
 I would like to read live music	music-live
+I would like to read podcasts	podcasts
 Can I read some news	news-top-stories
 Can I read some top 5 stories	news-top-stories
 Can I read some local news	news-local
@@ -220,6 +232,7 @@ Can I read some music	music-live
 Can I read some musics	music-live
 Can I read some radio two	music-live
 Can I read some live music	music-live
+Can I read some podcasts	podcasts
 Could I read some news	news-top-stories
 Could I read some top 5 stories	news-top-stories
 Could I read some local news	news-local
@@ -237,6 +250,7 @@ Could I read some music	music-live
 Could I read some musics	music-live
 Could I read some radio two	music-live
 Could I read some live music	music-live
+Could I read some podcasts	podcasts
 Please give me some news	news-top-stories
 Please give me some top 5 stories	news-top-stories
 Please give me some local news	news-local
@@ -254,6 +268,7 @@ Please give me some music	music-live
 Please give me some musics	music-live
 Please give me some radio two	music-live
 Please give me some live music	music-live
+Please give me some podcasts	podcasts
 Please send me some news	news-top-stories
 Please send me some top 5 stories	news-top-stories
 Please send me some local news	news-local
@@ -271,6 +286,7 @@ Please send me some music	music-live
 Please send me some musics	music-live
 Please send me some radio two	music-live
 Please send me some live music	music-live
+Please send me some podcasts	podcasts
 Could you give me some news	news-top-stories
 Could you give me some top 5 stories	news-top-stories
 Could you give me some local news	news-local
@@ -288,6 +304,7 @@ Could you give me some music	music-live
 Could you give me some musics	music-live
 Could you give me some radio two	music-live
 Could you give me some live music	music-live
+Could you give me some podcasts	podcasts
 Can you give me some news	news-top-stories
 Can you give me some top 5 stories	news-top-stories
 Can you give me some local news	news-local
@@ -305,6 +322,7 @@ Can you give me some music	music-live
 Can you give me some musics	music-live
 Can you give me some radio two	music-live
 Can you give me some live music	music-live
+Can you give me some podcasts	podcasts
 Can you send me some news	news-top-stories
 Can you send me some top 5 stories	news-top-stories
 Can you send me some local news	news-local
@@ -322,6 +340,7 @@ Can you send me some music	music-live
 Can you send me some musics	music-live
 Can you send me some radio two	music-live
 Can you send me some live music	music-live
+Can you send me some podcasts	podcasts
 Could you send me some news	news-top-stories
 Could you send me some top 5 stories	news-top-stories
 Could you send me some local news	news-local
@@ -339,6 +358,7 @@ Could you send me some music	music-live
 Could you send me some musics	music-live
 Could you send me some radio two	music-live
 Could you send me some live music	music-live
+Could you send me some podcasts	podcasts
 Could I read news	news-top-stories
 Could I read top 5 stories	news-top-stories
 Could I read local news	news-local
@@ -356,6 +376,7 @@ Could I read music	music-live
 Could I read musics	music-live
 Could I read radio two	music-live
 Could I read live music	music-live
+Could I read podcasts	podcasts
 Please give me news	news-top-stories
 Please give me top 5 stories	news-top-stories
 Please give me local news	news-local
@@ -373,6 +394,7 @@ Please give me music	music-live
 Please give me musics	music-live
 Please give me radio two	music-live
 Please give me live music	music-live
+Please give me podcasts	podcasts
 Please send me news	news-top-stories
 Please send me top 5 stories	news-top-stories
 Please send me local news	news-local
@@ -390,6 +412,7 @@ Please send me music	music-live
 Please send me musics	music-live
 Please send me radio two	music-live
 Please send me live music	music-live
+Please send me podcasts	podcasts
 Could you give me news	news-top-stories
 Could you give me top 5 stories	news-top-stories
 Could you give me local news	news-local
@@ -407,6 +430,7 @@ Could you give me music	music-live
 Could you give me musics	music-live
 Could you give me radio two	music-live
 Could you give me live music	music-live
+Could you give me podcasts	podcasts
 Can you give me news	news-top-stories
 Can you give me top 5 stories	news-top-stories
 Can you give me local news	news-local
@@ -424,6 +448,7 @@ Can you give me music	music-live
 Can you give me musics	music-live
 Can you give me radio two	music-live
 Can you give me live music	music-live
+Can you give me podcasts	podcasts
 Can you send me news	news-top-stories
 Can you send me top 5 stories	news-top-stories
 Can you send me local news	news-local
@@ -441,6 +466,7 @@ Can you send me music	music-live
 Can you send me musics	music-live
 Can you send me radio two	music-live
 Can you send me live music	music-live
+Can you send me podcasts	podcasts
 Could you send me news	news-top-stories
 Could you send me top 5 stories	news-top-stories
 Could you send me local news	news-local
@@ -458,6 +484,7 @@ Could you send me music	music-live
 Could you send me musics	music-live
 Could you send me radio two	music-live
 Could you send me live music	music-live
+Could you send me podcasts	podcasts
 What is happening in the news	news-top-stories
 What is happening in the top 5 stories	news-top-stories
 What is happening in the local news	news-local
@@ -475,6 +502,7 @@ What is happening in the music	music-live
 What is happening in the musics	music-live
 What is happening in the radio two	music-live
 What is happening in the live music	music-live
+What is happening in the podcasts	podcasts
 what is going on in the news	news-top-stories
 what is going on in the top 5 stories	news-top-stories
 what is going on in the local news	news-local
@@ -492,3 +520,4 @@ what is going on in the music	music-live
 what is going on in the musics	music-live
 what is going on in the radio two	music-live
 what is going on in the live music	music-live
+what is going on in the podcasts	podcasts

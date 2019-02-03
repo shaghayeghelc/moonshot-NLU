@@ -25,7 +25,8 @@ class TextCreationEN:
                     "Can you give me", "Can you send me", "Could you send me", "What is happening in the", "what is going on in the"]
 
         content = ['news', 'top 5 stories', 'local news', 'locally', 'world', 'in the world', 'international news', \
-                    'sport', 'top stories of sport', 'sports', 'radio', 'radio one', 'live radio', 'music', 'musics', 'radio two', 'live music']
+                    'sport', 'top stories of sport', 'sports', 'radio', 'radio one', 'live radio', 'music', 'musics', 'radio two', 'live music', \
+                    'podcasts']
 
         with open(cbc_tasks_file, 'wt') as f:
             writer = csv.writer(f, delimiter='\t')
@@ -43,6 +44,8 @@ class TextCreationEN:
                         tag = 'radio-live'
                     elif word_j in [ 'music', 'musics', 'radio two', 'live music']:
                         tag = 'music-live'
+                    elif word_j in ['podcasts']:
+                        tag = 'podcasts'
                     else: 
                         tag = 'news-local'
                     writer.writerow([a, tag])
